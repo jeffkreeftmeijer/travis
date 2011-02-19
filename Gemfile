@@ -23,9 +23,7 @@ group :development do
 end
 
 group :test do
-  # gem 'cucumber'
-  # gem 'steam', :path => '~/Development/projects/steam'
-  # gem 'locator', :path => '~/Development/projects/locator'
+  gem 'capybara'
 
   gem 'test_declarative'
   gem 'ruby-debug',   :platforms => ['ruby_18']
