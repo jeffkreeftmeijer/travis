@@ -23,7 +23,8 @@ group :development do
 end
 
 group :test do
-  gem 'capybara'
+  gem 'capybara', :git => 'git://github.com/jnicklas/capybara.git'
+  gem 'rspec-rails'
 
   gem 'test_declarative'
   gem 'ruby-debug',   :platforms => ['ruby_18']
