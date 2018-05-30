@@ -85,7 +85,7 @@ $ god -c config/resque.god
 
 h2. Running the tests
 
-Integration tests are implemented using "Jasmine":http://pivotal.github.com/jasmine and can be run in the browser:
+Integration tests are implemented using "Jasmine":https://jasmine.github.io/ and can be run in the browser:
 
 <pre>
 $ RAILS_ENV=jasmine rake db:migrate db:fixtures:load
